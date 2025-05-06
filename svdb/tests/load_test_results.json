@@ -1,0 +1,193 @@
+{
+  "api_url": "http://localhost:8000",
+  "timestamp": "2025-05-06T20:14:16.031397",
+  "results": {
+    "small_files": [
+      {
+        "file_size": 10240,
+        "duration": 0.02199697494506836,
+        "throughput": 0.44395309011293926,
+        "hash": "0030eda3c387fcef3258ceaf765b4a7a38610af9493d73a578b4c4fdc88c719bdad57a8917500b275f666d57dfec525aafc0efd94e399aa1a03a6352e79b936f"
+      },
+      {
+        "file_size": 10240,
+        "duration": 0.19668817520141602,
+        "throughput": 0.04965029031358716,
+        "hash": "03e23d91a01d74823f6afb7973753d2f8fd2689e79786a154910936999b05a8aed3f4867e6f01292d15742a086444d8347e6a84bcb252f8e976fbadfa0bb432c"
+      },
+      {
+        "file_size": 10240,
+        "duration": 0.20220494270324707,
+        "throughput": 0.04829567897522606,
+        "hash": "25e78ad3104fff9d0bbf7de8ce1da08eeb1499afb284dae5a05a0d4f9a6f02405447114bcee32fb903b33f4cd3657a874747c1e369e33e23671e7518f7b67741"
+      },
+      {
+        "file_size": 10240,
+        "duration": 0.20981407165527344,
+        "throughput": 0.04654418515858658,
+        "hash": "abb00a768cf4354cc93787e42d67a6aa6c45230ffa663f1434c12988bc9bcab32b7b0c429f74450309b85acb6cd4472afff89452652651fc7a508be5760e9d8f"
+      },
+      {
+        "file_size": 10240,
+        "duration": 0.21573781967163086,
+        "throughput": 0.04526617083116912,
+        "hash": "b560473abeff57df262718933c2a7eb89788dd905741e6eed4de4a94a5e5d101fe9f792776a4f05aeed9a057a62a8d0eca8643bc5941db3cd9a08327678717c6"
+      },
+      {
+        "file_size": 10240,
+        "duration": 0.22571420669555664,
+        "throughput": 0.04326544236168473,
+        "hash": "61e63e7d961ad933297cdbba3042da2a41db44b492517d949aaa47ed290c3ad003fd5c4893b6d1f9f06dcbd7015156f5f268cef78522f36f2c566d2167bc20fe"
+      },
+      {
+        "file_size": 10240,
+        "duration": 0.25141286849975586,
+        "throughput": 0.0388429799089997,
+        "hash": "d2d4a393b0776e9ed48d2aae69c90f88d789185a8702ca5d91237f242339f00a47f9f543029d20c91d8d4cf7b521cc677854c82c787e0175dc46e13320469ebd"
+      },
+      {
+        "file_size": 10240,
+        "duration": 0.2563822269439697,
+        "throughput": 0.03809010131632174,
+        "hash": "f1e83e8debfa7df7d3dd1db51cca2eed086a62404366a115b7b66945dc66acc2bdf8338190d181c84e1b7309e7c0220f552f41062f7fa0c0c28d40db3b3e857c"
+      },
+      {
+        "file_size": 10240,
+        "duration": 0.27407002449035645,
+        "throughput": 0.03563186093831147,
+        "hash": "f365f37be9aa1933c5c7eafee46dd9fcacb1ad8961bba0917db370defd07fad36e46a69f7b265c800003774b88e9590b9fae350b04046fbe8eff8159e4d0c316"
+      },
+      {
+        "file_size": 10240,
+        "duration": 0.27483224868774414,
+        "throughput": 0.035533038959687006,
+        "hash": "4966d0e0b7266ddfa94d860fe183b578427517c34dfa39ff6622d3663e27067393bd02ec72c2b51d95774e0d3dee6c8dead4301beee0d602fad139152cd0dbd6"
+      }
+    ],
+    "medium_files": [
+      {
+        "file_size": 1048576,
+        "duration": 0.32025909423828125,
+        "throughput": 3.1224718298115635,
+        "hash": "3d9fcfabcf895371b538be0ea59c84488bc1d2655eaf379cee867d18cf5d0a24045f31ab15b33440c1593b170911721936af4a2f9a19d3f327693487b51fbe73"
+      },
+      {
+        "file_size": 1048576,
+        "duration": 0.3545970916748047,
+        "throughput": 2.8201020918611595,
+        "hash": "b18ab0b08ad1646d960009944301f8967a29bb93fc7326ca0b28a6dd8f972b2364cd2ef6ea56d0564a080545258b4d8edeef0e6a8aafe3263989966e0797fb6a"
+      },
+      {
+        "file_size": 1048576,
+        "duration": 0.3730013370513916,
+        "throughput": 2.6809555373315495,
+        "hash": "8e6b14090f54571172f104a7ccb45718586d589fc5ce2686cc5fdf786afa8cd582ab3821ea61c79279445cbcbbb0fac43003359f031bd39563086cba98872194"
+      },
+      {
+        "file_size": 1048576,
+        "duration": 0.429610013961792,
+        "throughput": 2.327692482719773,
+        "hash": "4d562c3918b9b20a0f0e0db83489260414c234243d142348cbc6baba58eca432af2ba6a0369fd26b65afd352846ed728fdd0c153fd8a1d362f53e7559aac9887"
+      },
+      {
+        "file_size": 1048576,
+        "duration": 0.46795225143432617,
+        "throughput": 2.136970165086048,
+        "hash": "ba2f5bc1dca1431e1f30482a7f4d95b8be518737ae44ece0fff347010f905bb7f24aa9b6735ab95de6bbd5030e1b00d7d9a6d7282dcb17b4f15b242d50a2b4b8"
+      },
+      {
+        "file_size": 1048576,
+        "duration": 0.47650623321533203,
+        "throughput": 2.098608434253372,
+        "hash": "d85251b55cc833ae32cf11b468ca051d05108ecb7d54238faa14b88bd3070f9e85071d67b6de7b29a2116a99364fcb8925477e8f598c4b71fc127d80c7bab32a"
+      },
+      {
+        "file_size": 1048576,
+        "duration": 0.5138192176818848,
+        "throughput": 1.9462098060705837,
+        "hash": "7b5d26a40a368810a8bcc69c7706800e0cd8ba623bc57c4b2bbe7f5e751618bab3882bc0b63711692ee8c5f0138751c04de5899e0274bd27321a0c60cfcba2ea"
+      },
+      {
+        "file_size": 1048576,
+        "duration": 0.5440731048583984,
+        "throughput": 1.837988298025248,
+        "hash": "b016e65a7d9336ae1063f31f6cc0b50b5ab830633e65a2818af62161964c3b7d1b1987be8e54e4f3a44ab249764de248e7db793cdbd4b9b66f7150df360e1ccd"
+      },
+      {
+        "file_size": 1048576,
+        "duration": 0.5605900287628174,
+        "throughput": 1.7838347967175396,
+        "hash": "830ab5794f0a52a496c5142966158dbfef3c7cedd0caff6b8eb005a1abc7247b9714c221757af6f274a5ec919257c2f325559d0898c02b5d3c837df152004023"
+      },
+      {
+        "file_size": 1048576,
+        "duration": 0.6282098293304443,
+        "throughput": 1.5918248223938414,
+        "hash": "9885d2ed8ad74814629fe615e1b311b2272b9828a9dfacf6ddfdc23cf3cb04135f02ba39d7d9cc2bdfef94dc6ba453e0a662bd72652e716b565c53d0e499a75a"
+      }
+    ],
+    "large_files": [
+      {
+        "file_size": 10485760,
+        "duration": 0.7961959838867188,
+        "throughput": 12.5597217297981,
+        "hash": "91f229d3ed66c490b81e9dd07644c6e5754b64c7e483718f61be4a2a87eb063c2608b47acb659b744b7ce2b4654246628cd68932bdd2b3b49b814d050ba73d72"
+      },
+      {
+        "file_size": 10485760,
+        "duration": 0.9908871650695801,
+        "throughput": 10.091966424146587,
+        "hash": "14f250ff6f3e5a5f7751f5ac2c6aad8737a24f417b8ab28e523b5e7f0d92ecf4bb9b92fc83d5435b9188e6be3b6852852a63385e9481515f576ca6874af99dae"
+      },
+      {
+        "file_size": 10485760,
+        "duration": 1.2276599407196045,
+        "throughput": 8.145578159158966,
+        "hash": "98d9a2a0c9e3f635ea2b3d4ea5c5e353f54329de94f86d24253650bae8a0f74ab3aa14449500dcb48b058996312cd02d17d1df67facb77f15f94a096a4494437"
+      },
+      {
+        "file_size": 10485760,
+        "duration": 2.052186965942383,
+        "throughput": 4.872850362056514,
+        "hash": "b26e913a5b2e023daa2d56649cf6c303457f0b4d14dac9f308eecb83cb740126e69c2c9444546540b77ecda97e6fab1e207a2f0ac077c445349d9b544d895905"
+      },
+      {
+        "file_size": 10485760,
+        "duration": 2.057982921600342,
+        "throughput": 4.859126815408039,
+        "hash": "eb914efdbb6ecd45d9ebce33a0f096acf64a5f01293a1f53faec25343f894868e4cd6cb40ea02faabd2b7f8efdfe93e6d37570f2820ca3a96933e90d514b2b8e"
+      },
+      {
+        "file_size": 10485760,
+        "duration": 2.062098979949951,
+        "throughput": 4.849427741942197,
+        "hash": "b61ae4ba519a4be996054561121226cdd87532d28d058880e690670bd79007066262c0d4b451bbf4776da713e1c613d2d30164d14e71deab697356d4f5543bc9"
+      },
+      {
+        "file_size": 10485760,
+        "duration": 2.0677812099456787,
+        "throughput": 4.836101591358741,
+        "hash": "192ec89dcba458abc82c45784b1369502b648522fbc1f6df39b79eb441ae75f5b9780e5a0dbfcc2b75687db2eeaa81a4c11245392401d679a7ea7813e0a08514"
+      },
+      {
+        "file_size": 10485760,
+        "duration": 2.0714521408081055,
+        "throughput": 4.827531277695291,
+        "hash": "028b0f67f4d60637a5595a7b44b1315dbc2bc24e087cc578632030e86088be6cfccaddf7dce8aba816969cfab7798bf98370d4b0a1aeaa74acb5b6ed8258d83c"
+      },
+      {
+        "file_size": 10485760,
+        "duration": 2.2580502033233643,
+        "throughput": 4.42859949937435,
+        "hash": "8619ea544faca7ccda09e3410759b2bf5828e377b3d51acb233fded01784afa2c0db15c2ee0cdbae52f4e89d252ee566677aac7835b0fb4559fb2d89950df14b"
+      },
+      {
+        "file_size": 10485760,
+        "duration": 2.4077842235565186,
+        "throughput": 4.1531960805146735,
+        "hash": "d7f7bb2693f3cb3c122a78fbc14b0b111b9fcd43cca4c929563a76af834d4ef17a24f94cd9d8714aac519f5db917cc573012a73a7da62fb1ac34f592cff6b314"
+      }
+    ],
+    "errors": 0
+  }
+}

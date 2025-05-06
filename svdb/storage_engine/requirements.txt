@@ -1,0 +1,11 @@
+# Core dependencies
+cryptography>=37.0.0
+maturin>=1.2,<2.0
+
+# Optional dependencies
+blake3>=0.3.3  # Pure Python implementation of blake3
+
+# Development dependencies
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0 

@@ -1,0 +1,33 @@
+[package]
+name = "svdb_core"
+version = "0.1.0"
+edition = "2021"
+description = "SVDB Storage Engine"
+
+[lib]
+name = "svdb_core"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+blake3 = "1.5.0"
+blake2 = "0.10.6"
+sha3 = "0.10.8"
+digest = "0.10.7"
+rocksdb = { version = "0.21.0", features = ["multi-threaded-cf"] }
+pyo3 = { version = "0.20.0", features = ["extension-module"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+tokio = { version = "1.32.0", features = ["full"] }
+bincode = "1.3.3"
+hex = "0.4.3"
+
+[dev-dependencies]
+tempfile = "3.8.0"
+rand = "0.8.5"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+rocksdb = { version = "0.21.0", features = ["multi-threaded-cf"], default-features = false }
+
+[features]
+default = []

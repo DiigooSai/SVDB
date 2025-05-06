@@ -1,0 +1,80 @@
+version: '3.8'
+
+services:
+  # API Server
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python api/app.py
+    ports:
+      - "8000:8000"
+    volumes:
+      - svdb_data:/data
+    environment:
+      - SVDB_DB_PATH=/data
+      - SVDB_MONITOR_DB=/data/svdb_monitor.db
+      - ARTHACHAIN_API_URL=${ARTHACHAIN_API_URL}
+      - ARTHACHAIN_API_KEY=${ARTHACHAIN_API_KEY}
+    restart: unless-stopped
+    depends_on:
+      - monitor
+    networks:
+      - svdb_net
+
+  # Transaction Monitor
+  monitor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python admin_tools/monitor.py
+    volumes:
+      - svdb_data:/data
+    environment:
+      - SVDB_DB_PATH=/data
+      - SVDB_MONITOR_DB=/data/svdb_monitor.db
+      - SVDB_MONITOR_INTERVAL=300
+      - ARTHACHAIN_API_URL=${ARTHACHAIN_API_URL}
+      - ARTHACHAIN_API_KEY=${ARTHACHAIN_API_KEY}
+      - ALERT_EMAIL_ENABLED=${ALERT_EMAIL_ENABLED:-false}
+      - ALERT_EMAIL_SMTP=${ALERT_EMAIL_SMTP:-smtp.gmail.com}
+      - ALERT_EMAIL_PORT=${ALERT_EMAIL_PORT:-587}
+      - ALERT_EMAIL_USER=${ALERT_EMAIL_USER}
+      - ALERT_EMAIL_PASSWORD=${ALERT_EMAIL_PASSWORD}
+      - ALERT_EMAIL_TO=${ALERT_EMAIL_TO}
+    restart: unless-stopped
+    networks:
+      - svdb_net
+
+  # Admin Dashboard
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python admin_tools/dashboard.py
+    ports:
+      - "8080:8080"
+    volumes:
+      - svdb_data:/data
+    environment:
+      - SVDB_DB_PATH=/data
+      - SVDB_MONITOR_DB=/data/svdb_monitor.db
+      - SVDB_DASHBOARD_PORT=8080
+      - ARTHACHAIN_API_URL=${ARTHACHAIN_API_URL}
+      - ARTHACHAIN_API_KEY=${ARTHACHAIN_API_KEY}
+    restart: unless-stopped
+    depends_on:
+      - api
+      - monitor
+    networks:
+      - svdb_net
+
+# Shared persistent volume for data
+volumes:
+  svdb_data:
+    driver: local
+
+# Network for all components
+networks:
+  svdb_net:
+    driver: bridge 

@@ -1,0 +1,24 @@
+# Alert Configuration
+ALERTS_ENABLED=true
+
+# Email Alerts
+EMAIL_ALERTS_ENABLED=true
+EMAIL_SMTP=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_USER=alerts@yourcompany.com
+EMAIL_PASSWORD=your_secure_password
+EMAIL_TO=admin@yourcompany.com,oncall@yourcompany.com
+
+# Slack Alerts
+SLACK_ALERTS_ENABLED=true
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/TXXXXXXXX/BXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXX
+
+# PagerDuty Alerts
+PAGERDUTY_ALERTS_ENABLED=true
+PAGERDUTY_ROUTING_KEY=your_pagerduty_routing_key
+PAGERDUTY_SERVICE_ID=PXXXXXXX
+
+# Monitor Configuration
+SVDB_MONITOR_DB=./svdb_monitor.db
+SVDB_MONITOR_INTERVAL=300
+SVDB_MAX_RETRIES=3 

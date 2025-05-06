@@ -1,0 +1,15 @@
+# Base requirements
+boto3>=1.24.0
+httpx>=0.24.0
+click>=8.1.0
+pydantic>=2.0.0
+
+# Cloud provider SDKs (optional, install as needed)
+# AWS S3 (already covered by boto3)
+# Azure Blob Storage
+azure-storage-blob>=12.14.0
+# Google Cloud Storage
+google-cloud-storage>=2.7.0
+
+# Optional dependencies for advanced features
+tqdm>=4.64.0  # Progress bars 

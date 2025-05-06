@@ -1,0 +1,35 @@
+{
+  "common": {
+    "provider": "aws",
+    "logging_level": "INFO",
+    "key_rotation_interval_days": 90,
+    "supported_providers": ["aws", "azure", "gcp", "thales"]
+  },
+  
+  "aws": {
+    "region": "us-east-1",
+    "key_id": "mrk-5ebc733b55af4ef2889de2aa8bfa5949",
+    "timeout": 30,
+    "retry_attempts": 3
+  },
+  
+  "azure": {
+    "vault_url": "https://your-vault.vault.azure.net/",
+    "key_name": "transaction-signing-key",
+    "timeout": 30
+  },
+  
+  "gcp": {
+    "project_id": "your-project-id",
+    "location": "global",
+    "key_ring": "blockchain-keys",
+    "key_name": "transaction-signing-key"
+  },
+  
+  "thales": {
+    "hsm_ip": "10.0.0.1",
+    "hsm_port": 1500,
+    "partition_name": "partition1",
+    "partition_password": "REPLACE_WITH_ACTUAL_PASSWORD"
+  }
+} 

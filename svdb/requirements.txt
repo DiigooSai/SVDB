@@ -1,0 +1,28 @@
+# Core dependencies
+fastapi>=0.115.0
+httpx>=0.28.0
+pydantic>=2.11.0
+python-dotenv>=1.0.0
+uvicorn>=0.34.0
+python-multipart>=0.0.20
+
+# Authentication and security
+cryptography>=41.0.0
+python-jose>=3.3.0
+passlib>=1.7.4
+
+# Testing
+pytest>=8.3.0
+pytest-asyncio>=0.26.0
+aiohttp>=3.11.0
+
+# Blockchain and hashing
+blake3>=0.3.0
+
+# Cloud providers
+boto3>=1.29.0  # AWS S3 and DigitalOcean Spaces
+azure-storage-blob>=12.18.0  # Azure
+google-cloud-storage>=2.12.0  # GCP
+
+# Monitoring and operations
+prometheus-client>=0.17.0 
